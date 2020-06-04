@@ -1,6 +1,6 @@
 # Apache-Tomcat-MongoDB-Remote-Code-Execution
 
-#### 0x01 add the following JARs to lib/ directory
+#### 0x01 add the following JARs to /lib directory
 
 ```
 mongo-java-driver-3.10.2.jar
