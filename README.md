@@ -18,10 +18,10 @@ Mongo-Tomcat-Sessions.jar
          database="sessions" 
          maxInactiveInterval="84"/>
 ```
-#### 0x03 start Tomcat Server, when users login the website, their login sessions will be stored in MongoDB, as you know, there are so many unauthorized MongoDB Servers on the Internet.
 
+#### 0x03 send the request with PoC, when users login again, the Remote Code Executed.
 
+<img src="https://github.com/pyn3rd/Apache-Tomcat-MongoDB-Remote-Code-Execution/blob/master/tomcat-mongo.gif">
 
-#### 0x04 send the request with PoC, when users login again, the Remote Code Executed.
+#### 0x04 start Tomcat Server, when users login the website, their login sessions will be stored in MongoDB, as you know, there are so many unauthorized MongoDB Servers on the Internet.
 
-[<img src="https://github.com/pyn3rd/Apache-Tomcat-MongoDB-Remote-Code-Execution/blob/master/tomcat-mongo.gif">]
