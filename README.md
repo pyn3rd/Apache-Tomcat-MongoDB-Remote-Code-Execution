@@ -23,5 +23,6 @@ Mongo-Tomcat-Sessions.jar
 
 <img src="https://github.com/pyn3rd/Apache-Tomcat-MongoDB-Remote-Code-Execution/blob/master/tomcat-mongo.gif">
 
-#### 0x04 start Tomcat Server, when users login the website, their login sessions will be stored in MongoDB, as you know, there are so many unauthorized MongoDB Servers on the Internet.
+#### 0x04 start Tomcat Server, when users login the website, their login sessions will be stored in MongoDB, as you know, there are so many unauthorized MongoDB Servers on the Internet, search them by Shodan :)
+
 
