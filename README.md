@@ -19,7 +19,7 @@ Mongo-Tomcat-Sessions.jar
          maxInactiveInterval="84"/>
 ```
 
-#### 0x03 send the request with PoC, when users login again, the Remote Code Executed.
+#### 0x03 send the request with PoC, when users login again, there is Remote Code Execution.
 
 <img src="https://github.com/pyn3rd/Apache-Tomcat-MongoDB-Remote-Code-Execution/blob/master/tomcat-mongo.gif">
 
