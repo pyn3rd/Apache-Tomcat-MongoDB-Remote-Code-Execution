@@ -1,6 +1,6 @@
 # Apache-Tomcat-MongoDB-Remote-Code-Execution
 
-#### 0x01 Add the following JARs to /lib directory.
+#### 0x01 Add the following JARs to the /lib directory of Tomcat Server.
 
 ```
 mongo-java-driver-3.10.2.jar
@@ -8,7 +8,7 @@ mongo-store-3.0.0.jar
 Mongo-Tomcat-Sessions.jar
 ```
 
-#### 0x02 Modify the configuration file, `` conf/context.xml `` then start Tomcat Server and MongoDB Server.
+#### 0x02 Modify the configuration file `` conf/context.xml ``,and then append the following configuration,at last start both Tomcat Server and MongoDB Server.
 
 ```
 <Valve className="com.dawsonsystems.session.MongoSessionTrackerValve"/>
@@ -19,7 +19,7 @@ Mongo-Tomcat-Sessions.jar
          maxInactiveInterval="84"/>
 ```
 
-#### 0x03 Send the request with PoC, when users login again, there is Remote Code Execution.
+#### 0x03 Send the request with PoC, when users login the website again, and RCE will happen.
 
 <img src="https://github.com/pyn3rd/Apache-Tomcat-MongoDB-Remote-Code-Execution/blob/master/tomcat-mongo.gif">
 
